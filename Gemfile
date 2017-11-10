@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'sprockets', '>=3.0.0.beta'
+gem 'sprockets-es6'
 gem 'rails',                   '5.0.1'
 gem 'bcrypt',                  '3.1.11'
 gem 'faker',                   '1.6.6'
@@ -10,7 +12,7 @@ gem 'coffee-rails',            '4.2.1'
 gem 'jquery-rails',            '4.1.1'
 gem 'turbolinks',              '5.0.0'
 gem 'jbuilder',                '2.4.1'
-
+gem 'redis'
 group :development, :test do
   gem 'sqlite3', '1.3.13'
   gem 'byebug',  '9.0.0', platform: :mri
